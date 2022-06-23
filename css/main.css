@@ -1,0 +1,194 @@
+body {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    ;
+    background-color: #F5F5F5;
+    margin: 0px;
+    
+}
+
+/* 16px=100%=1em */
+h1 {
+    color: #30E3CA;
+    font-size: 5.62rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #30E3CA;
+    font-family: 'Montserrat', sans-seri;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-seri;
+    color: #2F89FC;
+}
+
+a {
+    color: #2F89FC;
+}
+
+hr {
+    border: 3px dotted;
+    color: #89b7b7;
+    border-style: dotted none none;
+    height: 10px;
+    width: 5%;
+}
+
+.footer-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.mountain{
+    max-width: 100%;
+    height: auto;
+}
+.header {
+    width: auto;
+    height: auto;
+}
+
+.middle {
+    margin: 40px auto 40px auto;
+    
+}
+.amir{
+    width: 20%;
+}
+
+.skills {
+    margin: 40px auto 40px auto;
+}
+
+.touch {
+margin: 30px;
+}
+
+
+
+.pro {
+    text-decoration: underline;
+}
+
+header {
+    position: relative;
+    padding-top: 100px;
+    background-color: #F5F5F5;
+
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+/* use float for the wraping text */
+.leader-img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chilli-img {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+
+}
+
+.btn {
+    background: #30E3CA;
+    background-image: -webkit-linear-gradient(top, #30E3CA, #2980b9);
+    background-image: -moz-linear-gradient(top, #30E3CA, #2980b9);
+    background-image: -ms-linear-gradient(top, #30E3CA, #2980b9);
+    background-image: -o-linear-gradient(top, #30E3CA, #2980b9);
+    background-image: linear-gradient(to bottom, #30E3CA, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.fabout {
+    margin:auto;
+}
+
+.footer {
+    background-color: #40514E;
+    height: 150px;
+    margin: 30px 0px 40px 0px;
+
+}
+
+.link {
+   
+    margin: 20px 20px 20px 20px;
+   display: inline-block;
+   color:#2F89FC ;
+}
+.signiture{
+    color: #EAF6F6;
+}
+
+
+/* diplays: 
+block
+inline-block
+inline
+none (you can use non for hiding an element) or use visibility: hidden */
+/* body {
+    margin: 0px;
+}
+.red {
+    background-color: crimson;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.blue {
+        background-color: aqua;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 100px;
+        left: 100px;
+    }
+
+.yellow {
+        background-color: rgb(255, 225, 0);
+        height: 100px;
+        width: 100px;
+position: absolute;
+top: 0px;
+left:0px ;
+    } */
